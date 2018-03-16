@@ -60,7 +60,6 @@ class Login extends Component {
 
   render() {
     let { _handleChange,_formSubmit } = this;
-    console.log(this.state);
     return (
       <div className="row">
           <div className="row">

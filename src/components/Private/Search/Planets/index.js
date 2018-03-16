@@ -17,6 +17,8 @@ const planetFontSize = population => {
       return "75px";
     case population > 500000000 && population <= 1000000000:
       return "85px";
+    case population > 1000000000 && population <= 100000000000:
+        return "95px";
     default:
       return "14px";
   }

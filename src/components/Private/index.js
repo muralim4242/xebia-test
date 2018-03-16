@@ -26,7 +26,6 @@ class Private extends Component {
     if (timer==60) {
       self.setState({timer:0,searchCount:0,lockPlanetSearch:false});
     }
-    console.log(timer);
   }
 
   _stoperTimer =()=>{
@@ -43,7 +42,6 @@ class Private extends Component {
         window.Materialize.toast('Sorry you can search or view only 15 planets per minute', 4000);
     } else {
       self.setState({searchCount:searchCount+1});
-      console.log(searchCount);
     }
   }
 
